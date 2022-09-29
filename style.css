@@ -202,6 +202,10 @@ input[type=textarea]{
   }
 
   @media only screen and (max-width: 600px) {
+
+    a{
+      font-size: 16px;
+    }
     
       h1{
               font-size: 20px;
