@@ -94,8 +94,7 @@ h2{
 .section_description{
     font-size: 20px;
     line-height: 1.5;
-    margin-bottom: 20px;
-    padding: 24px;
+    padding: 20px;
     text-align: justify;
 }
 
@@ -150,6 +149,7 @@ form{
 }
 
 label{
+  padding: 10px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -158,18 +158,23 @@ input{
     margin-bottom: 20px;
 }
 
+input[type=email]{
+
+  min-height: 30px;
+}
 input[type=textarea]{
 
   min-height: 100px;
 }
 
   button{
-    background-color: #05c7cf;
+    background-color : rgba(108,99,255,255);
     color: white;
     border: none;
     padding: 8px 16px;
     font-size: 24px;
     cursor: pointer;
+    border-radius: 5px;
 
   }
 
@@ -198,8 +203,13 @@ input[type=textarea]{
   }
 
   a.footerlink:hover{
-    color:brown;
+    color:blue;
   }
+#contact p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
 
   @media only screen and (max-width: 600px) {
 
@@ -224,7 +234,7 @@ input[type=textarea]{
       }
 
     .aboutsection, .book-section , .magazine-section{
-      flex-direction: column;
+      flex-direction: column-reverse;
       padding: 0px;
       margin: 10px;
     }
@@ -236,16 +246,21 @@ input[type=textarea]{
     .section_description{
 
       font-size: 16px;
-      margin-bottom: 10px;
       padding: 10px;
       text-align: justify
   
     }
 
     label{
+  
       font-size: 16px;
       margin-bottom: 5px;
     }
+#contact p{
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
 
     input,button{
       margin: 10px;
