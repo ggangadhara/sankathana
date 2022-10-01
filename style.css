@@ -168,7 +168,7 @@ input[type=textarea]{
 }
 
   button{
-    background-color : rgba(108,99,255,255);
+    background-color : #6c63ff;
     color: white;
     border: none;
     padding: 8px 16px;
